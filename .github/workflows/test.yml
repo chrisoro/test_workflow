@@ -25,4 +25,6 @@ jobs:
         uses: MishaKav/pytest-coverage-comment@v1.1.45
         with:
           pytest-coverage-path: ./pytest-coverage.txt
-          junitxml-path: ./pytest.xml     
+          junitxml-path: ./pytest.xml    
+          remove-link-from-badge: true
+ 
